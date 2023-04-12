@@ -23,7 +23,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 ```
 
 
-1. Create a function to load a pre-trained GPT model and tokenizer from HuggingFace Transformers library:
+3. Create a function to load a pre-trained GPT model and tokenizer from HuggingFace Transformers library:
 
 ```python
 
@@ -34,7 +34,7 @@ def load_gpt_model(model_name: str):
 ```
 
 
-1. Implement a function that takes the feature description and generates test cases using the GPT model:
+4. Implement a function that takes the feature description and generates test cases using the GPT model:
 
 ```python
 
@@ -44,7 +44,7 @@ def generate_test_cases(tokenizer, model, feature_description: str, num_test_cas
 ```
 
 
-1. Create a command-line interface to input the feature description and the number of test cases to generate:
+5. Create a command-line interface to input the feature description and the number of test cases to generate:
 
 ```python
 
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 ```
 
 
-1. Extend the script to allow the user to refine the generated test cases, as well as integrate the system with existing testing frameworks and CI/CD pipelines.
+6. Extend the script to allow the user to refine the generated test cases, as well as integrate the system with existing testing frameworks and CI/CD pipelines.
 
 Please refer to the HuggingFace Transformers [documentation](https://huggingface.co/transformers/)  for more information on using the library and working with pre-trained models.
 
