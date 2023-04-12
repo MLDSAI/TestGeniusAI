@@ -85,3 +85,11 @@ In this bonus section, you'll explore the potential of using agent-based framewo
 4. **Document the process** : In your project repository, document the process of using the chosen agent-based framework for automating the feature implementation. Include any challenges, successes, and insights discovered during the process.
 
 By completing this bonus section, you will demonstrate your ability to leverage cutting-edge AI technologies to automate complex software development tasks, potentially revolutionizing the software development lifecycle.
+
+## Submitting an Issue
+
+Please submit any issues to https://github.com/MLDSAI/TestGeniusAI/issues with the
+following information:
+
+- Problem description (include any relevant console output and/or screenshots)
+- Steps to reproduce (required in order for others to help you)
